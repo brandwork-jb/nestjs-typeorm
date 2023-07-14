@@ -1,5 +1,5 @@
 import { Provider } from '@nestjs/common';
-import { DataSource, DataSourceOptions, getMetadataArgsStorage } from 'typeorm';
+import { DataSource, DataSourceOptions, getMetadataArgsStorage } from "@brandwork/typeorm-fork";
 import { getDataSourceToken, getRepositoryToken } from './common/typeorm.utils';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 

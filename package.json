@@ -1,8 +1,8 @@
 {
-  "name": "@nestjs/typeorm",
-  "version": "10.0.0",
+  "name": "@brandwork/nestjs-typeorm",
+  "version": "10.0.0-bw.0.0.2",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
-  "author": "Kamil Mysliwiec",
+  "author": "Julian Breitung",
   "license": "MIT",
   "url": "https://github.com/nestjs/typeorm#readme",
   "scripts": {
@@ -10,9 +10,9 @@
     "format": "prettier --write \"**/*.ts\"",
     "lint": "eslint 'lib/**/*.ts' --fix",
     "prepublish:npm": "npm run build",
-    "publish:npm": "npm publish --access public",
+    "publish:npm": "npm publish",
     "prepublish:next": "npm run build",
-    "publish:next": "npm publish --access public --tag next",
+    "publish:next": "npm publish --tag next",
     "test:e2e": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watch",
     "prerelease": "npm run build",
@@ -46,7 +46,7 @@
     "rxjs": "7.8.1",
     "supertest": "6.3.3",
     "ts-jest": "29.1.1",
-    "typeorm": "0.3.17",
+    "@brandwork/typeorm-fork": "latest",
     "typescript": "5.1.6"
   },
   "dependencies": {
@@ -57,7 +57,7 @@
     "@nestjs/core": "^8.0.0 || ^9.0.0 || ^10.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
-    "typeorm": "^0.3.0"
+    "@brandwork/typeorm-fork": "latest"
   },
   "lint-staged": {
     "**/*.{ts,json}": []

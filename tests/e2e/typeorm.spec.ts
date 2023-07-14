@@ -4,7 +4,7 @@ import * as request from 'supertest';
 import { ApplicationModule } from '../src/app.module';
 import { Server } from 'http';
 
-describe('TypeOrm', () => {
+describe("@brandwork/typeorm-fork", () => {
   let server: Server;
   let app: INestApplication;
 

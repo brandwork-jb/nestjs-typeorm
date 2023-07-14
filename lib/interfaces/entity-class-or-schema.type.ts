@@ -1,3 +1,3 @@
-import { EntitySchema } from 'typeorm';
+import { EntitySchema } from "@brandwork/typeorm-fork";
 
 export type EntityClassOrSchema = Function | EntitySchema;

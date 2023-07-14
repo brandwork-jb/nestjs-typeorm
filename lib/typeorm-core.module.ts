@@ -15,7 +15,7 @@ import {
   createConnection,
   DataSource,
   DataSourceOptions,
-} from 'typeorm';
+} from "@brandwork/typeorm-fork";
 import {
   generateString,
   getDataSourceName,

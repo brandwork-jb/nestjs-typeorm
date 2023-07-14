@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm';
+import { Repository } from "@brandwork/typeorm-fork";
 import { InjectRepository } from '../../../lib';
 import { Photo } from './photo.entity';
 import { CustomPhotoRepository } from './photo.repository';

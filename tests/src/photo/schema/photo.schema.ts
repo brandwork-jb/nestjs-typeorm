@@ -1,4 +1,4 @@
-import { EntitySchema } from 'typeorm';
+import { EntitySchema } from "@brandwork/typeorm-fork";
 import { Photo } from '../photo.entity';
 
 export const PhotoSchema = new EntitySchema<Photo>({
